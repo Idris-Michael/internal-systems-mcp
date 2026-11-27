@@ -1,0 +1,16 @@
+{
+  "palette": {"ink": "#0B1F33", "leaf": "#2CA01C", "cloud": "#F4F5F8", "sun": "#FFC629"},
+  "approved_ctas": ["Start free trial", "See plans", "Try it today", "Learn more"],
+  "legal_line": "Terms apply. See ledgerly.example/terms.",
+  "banned_words": ["guarantee", "guaranteed", "free forever", "instant", "risk-free"],
+  "templates": [
+    {"id": "meta-feed-1x1", "channel": "meta", "format": "static", "size": "1080x1080",
+     "slots": {"headline": {"max_chars": 40}, "body": {"max_chars": 125}, "cta": {"max_chars": 20}}},
+    {"id": "meta-story-9x16", "channel": "meta", "format": "static", "size": "1080x1920",
+     "slots": {"headline": {"max_chars": 30}, "body": {"max_chars": 90}, "cta": {"max_chars": 20}}},
+    {"id": "google-rsa", "channel": "google", "format": "text", "size": "n/a",
+     "slots": {"headline": {"max_chars": 30}, "body": {"max_chars": 90}, "cta": {"max_chars": 15}}},
+    {"id": "tiktok-video-9x16", "channel": "tiktok", "format": "video", "size": "1080x1920",
+     "slots": {"headline": {"max_chars": 28}, "body": {"max_chars": 80}, "cta": {"max_chars": 20}}}
+  ]
+}

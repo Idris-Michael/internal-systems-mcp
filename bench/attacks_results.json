@@ -1,0 +1,44 @@
+{
+  "categories": {
+    "auth": {
+      "attempts": 8,
+      "blocked": 8,
+      "let_through": []
+    },
+    "scope": {
+      "attempts": 12,
+      "blocked": 12,
+      "let_through": []
+    },
+    "injection": {
+      "attempts": 23,
+      "blocked": 23,
+      "let_through": []
+    },
+    "write": {
+      "attempts": 10,
+      "blocked": 10,
+      "let_through": []
+    }
+  },
+  "legitimate_calls": {
+    "approved write": true,
+    "get_brand_guidelines": true,
+    "get_template": true,
+    "check_ad": true,
+    "find_accounts": true,
+    "list_campaigns": true
+  },
+  "rate_limit": {
+    "burst_allowed": 20,
+    "calls": 40,
+    "limited": 19
+  },
+  "audit_rows": 91,
+  "audit_outcomes": {
+    "rejected": 23,
+    "rate_limited": 19,
+    "ok": 37,
+    "denied_scope": 12
+  }
+}

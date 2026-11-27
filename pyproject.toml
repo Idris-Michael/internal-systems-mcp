@@ -1,0 +1,44 @@
+[project]
+name = "internal-systems-mcp"
+version = "0.1.0"
+description = "An MCP server that lets AI agents use internal systems safely: scoped tokens, read-only by default, approval-gated writes, audit log."
+readme = "README.md"
+authors = [{ name = "Idris-Michael Bakare" }]
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = ["mcp>=2.3.0", "pyjwt>=2.10", "uvicorn>=0.34"]
+
+[project.scripts]
+internal-mcp = "internal_mcp.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "internal_mcp"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "SIM", "RUF"]
+ignore = ["S101", "RUF001"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S105", "S106", "S608"]  # literal test secrets; injection strings are the test data
+"bench/**" = ["S105", "S106", "S603", "S608"]  # bench calls the claude CLI with an argv list
+
+[tool.mypy]
+strict = true
+files = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+addopts = "--cov=internal_mcp --cov-report=term-missing --cov-fail-under=85"
+
+[dependency-groups]
+dev = ["mypy>=1.13", "pytest>=8.3", "pytest-asyncio>=1.0", "pytest-cov>=6.0", "ruff>=0.8"]

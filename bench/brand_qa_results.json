@@ -1,0 +1,979 @@
+{
+  "model": "claude-haiku-5-5",
+  "ads": 40,
+  "passed_first_try": 35,
+  "passed_after_one_repair": 40,
+  "parse_errors": 0,
+  "first_try_failures_by_rule": {
+    "body_length": 4,
+    "headline_length": 2
+  },
+  "failures_left_after_repair": {},
+  "rows": [
+    {
+      "id": 0,
+      "template": "meta-feed-1x1",
+      "brief": "Launch of automatic bank reconciliation for sole traders",
+      "ad": {
+        "body": "Your books match your bank automatically. Less typing, more time for the shop.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "Bank reconciliation, done for you.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 1,
+      "template": "meta-story-9x16",
+      "brief": "Spring promotion: three months at half price for new customers",
+      "ad": {
+        "body": "New customers save 50% for three months. Send invoices in two taps.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "Half price for three months",
+        "cta": "See plans",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 2,
+      "template": "google-rsa",
+      "brief": "Reminder that self-assessment tax returns are due on 31 January",
+      "ad": {
+        "body": "Don't miss the deadline. Keep records in one place and file with ease.",
+        "colours": [
+          "#0B1F33",
+          "#FFC629"
+        ],
+        "headline": "Self-assessment due 31 January",
+        "cta": "See plans",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 3,
+      "template": "tiktok-video-9x16",
+      "brief": "New mobile app for snapping receipts on the go",
+      "ad": {
+        "body": "Snap a receipt in seconds. Your books stay up to date, wherever you are.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8"
+        ],
+        "headline": "Snap receipts on the go.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 4,
+      "template": "meta-feed-1x1",
+      "brief": "Invoices that chase late payers for you",
+      "ad": {
+        "body": "Late payers get a friendly reminder, automatically. You stay focused on the work you love.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Get paid. Without chasing.",
+        "cta": "Start free trial",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 5,
+      "template": "meta-story-9x16",
+      "brief": "Payroll for teams of one to ten people",
+      "ad": {
+        "body": "Pay your team on time. Taxes handled. Set up in minutes, for teams of 1 to 10.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Payroll, sorted.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 6,
+      "template": "google-rsa",
+      "brief": "Switching from spreadsheets to proper bookkeeping",
+      "ad": {
+        "body": "Bookkeeping that runs itself. Track every sale and bill in one place. Terms apply. See ledgerly.example/terms.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Stop wrestling spreadsheets",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": false,
+        "failures": [
+          {
+            "rule": "body_length",
+            "detail": "110 chars, limit 90"
+          }
+        ]
+      },
+      "repaired": {
+        "passed": true,
+        "failures": []
+      },
+      "ad2": {
+        "body": "Bookkeeping that runs itself. Track sales and bills in one place.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Stop wrestling spreadsheets",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      }
+    },
+    {
+      "id": 7,
+      "template": "tiktok-video-9x16",
+      "brief": "VAT returns filed straight to HMRC",
+      "ad": {
+        "body": "File your VAT return straight to HMRC. Less admin, more time for the shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "VAT returns, sorted.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 8,
+      "template": "meta-feed-1x1",
+      "brief": "Cash-flow forecast for the next 90 days",
+      "ad": {
+        "body": "Know what's coming in and going out. Plan payroll and bills with confidence.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "See your next 90 days of cash",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 9,
+      "template": "meta-story-9x16",
+      "brief": "Accountant access: share your books in one click",
+      "ad": {
+        "body": "Share your books in one click. No more emailing spreadsheets.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "Give your accountant access",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 10,
+      "template": "google-rsa",
+      "brief": "Launch of automatic bank reconciliation for sole traders",
+      "ad": {
+        "body": "Your bank feed matches itself. Less admin, more time for your shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C"
+        ],
+        "headline": "Bank matching, done for you",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 11,
+      "template": "tiktok-video-9x16",
+      "brief": "Spring promotion: three months at half price for new customers",
+      "ad": {
+        "body": "New customers: three months at half price. Send invoices in two taps.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Half price for 3 months",
+        "cta": "See plans",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 12,
+      "template": "meta-feed-1x1",
+      "brief": "Reminder that self-assessment tax returns are due on 31 January",
+      "ad": {
+        "body": "Your tax return is due 31 January. Keep your records in one place and file with less stress.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Self-assessment due 31 January",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 13,
+      "template": "meta-story-9x16",
+      "brief": "New mobile app for snapping receipts on the go",
+      "ad": {
+        "body": "Snap receipts on the go. Your books stay up to date, no shoebox needed.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "Snap it. Skip the shoebox.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 14,
+      "template": "google-rsa",
+      "brief": "Invoices that chase late payers for you",
+      "ad": {
+        "body": "Invoices that follow up on late payers for you. Set it once, get paid sooner.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Get paid. Stop chasing.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 15,
+      "template": "tiktok-video-9x16",
+      "brief": "Payroll for teams of one to ten people",
+      "ad": {
+        "body": "Pay your team on schedule. Simple payroll for one to ten people.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8"
+        ],
+        "headline": "Payroll for your small team",
+        "cta": "Start free trial",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 16,
+      "template": "meta-feed-1x1",
+      "brief": "Switching from spreadsheets to proper bookkeeping",
+      "ad": {
+        "body": "Ledgerly keeps your books in order. Send invoices in two taps and spend less time on formulas.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Stop wrestling with spreadsheets.",
+        "cta": "Start free trial",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 17,
+      "template": "meta-story-9x16",
+      "brief": "VAT returns filed straight to HMRC",
+      "ad": {
+        "body": "File your VAT return straight to HMRC. No spreadsheets, no stress.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "VAT returns, sorted.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 18,
+      "template": "google-rsa",
+      "brief": "Cash-flow forecast for the next 90 days",
+      "ad": {
+        "body": "Know what cash is coming in and going out. Plan ahead with a 90-day forecast.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8"
+        ],
+        "headline": "See your next 90 days",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 19,
+      "template": "tiktok-video-9x16",
+      "brief": "Accountant access: share your books in one click",
+      "ad": {
+        "body": "Your accountant sees everything. Share in one click. No back-and-forth.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8"
+        ],
+        "headline": "Share your books in one tap",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 20,
+      "template": "meta-feed-1x1",
+      "brief": "Launch of automatic bank reconciliation for sole traders",
+      "ad": {
+        "body": "Bank transactions match your invoices automatically. Less sorting, more time for the shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Your bank matches itself now.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 21,
+      "template": "meta-story-9x16",
+      "brief": "Spring promotion: three months at half price for new customers",
+      "ad": {
+        "body": "Three months at half price for new customers. Send invoices in two taps.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Spring deal: half price",
+        "cta": "See plans",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 22,
+      "template": "google-rsa",
+      "brief": "Reminder that self-assessment tax returns are due on 31 January",
+      "ad": {
+        "body": "Your tax return is due 31 January. Keep your records in one place with Ledgerly.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Self-assessment due 31 Jan",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 23,
+      "template": "tiktok-video-9x16",
+      "brief": "New mobile app for snapping receipts on the go",
+      "ad": {
+        "body": "Snap a receipt on the go. It's logged in seconds, ready for tax time.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Snap it. Forget the shoebox.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 24,
+      "template": "meta-feed-1x1",
+      "brief": "Invoices that chase late payers for you",
+      "ad": {
+        "body": "Late invoices get a polite reminder automatically. You get paid faster, and you get back to running your shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Get paid. Without chasing.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 25,
+      "template": "meta-story-9x16",
+      "brief": "Payroll for teams of one to ten people",
+      "ad": {
+        "body": "Pay your team on time. Teams of one to ten, handled in a few taps.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Payroll, made simple.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 26,
+      "template": "google-rsa",
+      "brief": "Switching from spreadsheets to proper bookkeeping",
+      "ad": {
+        "body": "Track every sale and bill in one place. Ledgerly keeps your books tidy for you.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Done with messy spreadsheets?",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 27,
+      "template": "tiktok-video-9x16",
+      "brief": "VAT returns filed straight to HMRC",
+      "ad": {
+        "body": "File your VAT return from Ledgerly in a few taps. Sent straight to HMRC.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "VAT returns, sent to HMRC",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 28,
+      "template": "meta-feed-1x1",
+      "brief": "Cash-flow forecast for the next 90 days",
+      "ad": {
+        "body": "Forecast your cash flow for the next 90 days. Spot the tight weeks early, so you can plan ahead.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "See cash coming in. 90 days out.",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 29,
+      "template": "meta-story-9x16",
+      "brief": "Accountant access: share your books in one click",
+      "ad": {
+        "body": "Give your accountant access in one tap. No more emailing files back and forth.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Share your books in one click",
+        "cta": "See plans",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 30,
+      "template": "google-rsa",
+      "brief": "Launch of automatic bank reconciliation for sole traders",
+      "ad": {
+        "body": "Bank reconciliation runs automatically. Spend less time matching, more time selling.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "Your books match your bank",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 31,
+      "template": "tiktok-video-9x16",
+      "brief": "Spring promotion: three months at half price for new customers",
+      "ad": {
+        "body": "New customers: three months at half price. Send invoices in two taps.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Spring deal: half price",
+        "cta": "See plans",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 32,
+      "template": "meta-feed-1x1",
+      "brief": "Reminder that self-assessment tax returns are due on 31 January",
+      "ad": {
+        "body": "Get your tax return in early. Send it before 31 January and skip the last-minute rush.",
+        "colours": [
+          "#0B1F33",
+          "#F4F5F8",
+          "#2CA01C"
+        ],
+        "headline": "Self-assessment due 31 January.",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 33,
+      "template": "meta-story-9x16",
+      "brief": "New mobile app for snapping receipts on the go",
+      "ad": {
+        "body": "Snap a receipt on the go. Ledgerly keeps your books tidy, so you can get back to running your shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Snap it. Done.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": false,
+        "failures": [
+          {
+            "rule": "body_length",
+            "detail": "99 chars, limit 90"
+          }
+        ]
+      },
+      "repaired": {
+        "passed": true,
+        "failures": []
+      },
+      "ad2": {
+        "body": "Snap receipts on the go. Ledgerly keeps your books tidy while you run your shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Snap it. Done.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      }
+    },
+    {
+      "id": 34,
+      "template": "google-rsa",
+      "brief": "Invoices that chase late payers for you",
+      "ad": {
+        "body": "Invoices follow up on late payers for you. Set it once and get back to work.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Get paid. We'll do the chasing.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": false,
+        "failures": [
+          {
+            "rule": "headline_length",
+            "detail": "31 chars, limit 30"
+          }
+        ]
+      },
+      "repaired": {
+        "passed": true,
+        "failures": []
+      },
+      "ad2": {
+        "body": "Invoices follow up on late payers for you. Set it once and get back to work.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Get paid. We do the chasing.",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      }
+    },
+    {
+      "id": 35,
+      "template": "tiktok-video-9x16",
+      "brief": "Payroll for teams of one to ten people",
+      "ad": {
+        "body": "Pay up to ten people on time. Set up in minutes, no payroll expert needed.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8"
+        ],
+        "headline": "Payroll for your small team",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 36,
+      "template": "meta-feed-1x1",
+      "brief": "Switching from spreadsheets to proper bookkeeping",
+      "ad": {
+        "body": "Ledgerly keeps your books tidy, so you spend less time in cells and more time running your shop.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Stop wrestling with spreadsheets.",
+        "cta": "Start free trial",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 37,
+      "template": "meta-story-9x16",
+      "brief": "VAT returns filed straight to HMRC",
+      "ad": {
+        "body": "Skip the paperwork. Send your VAT return straight from Ledgerly.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "File VAT returns to HMRC",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": true,
+        "failures": []
+      },
+      "repaired": null
+    },
+    {
+      "id": 38,
+      "template": "google-rsa",
+      "brief": "Cash-flow forecast for the next 90 days",
+      "ad": {
+        "body": "Know your cash flow before it surprises you. Ledgerly forecasts what's coming in and going out.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "See your next 90 days",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": false,
+        "failures": [
+          {
+            "rule": "body_length",
+            "detail": "95 chars, limit 90"
+          }
+        ]
+      },
+      "repaired": {
+        "passed": true,
+        "failures": []
+      },
+      "ad2": {
+        "body": "Know what's coming in and going out. Ledgerly forecasts your next 90 days.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "See your next 90 days",
+        "cta": "Try it today",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      }
+    },
+    {
+      "id": 39,
+      "template": "tiktok-video-9x16",
+      "brief": "Accountant access: share your books in one click",
+      "ad": {
+        "body": "Give your accountant access fast. No emailing files. No back-and-forth. Just one tap.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Share your books in one click",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      },
+      "first": {
+        "passed": false,
+        "failures": [
+          {
+            "rule": "headline_length",
+            "detail": "29 chars, limit 28"
+          },
+          {
+            "rule": "body_length",
+            "detail": "85 chars, limit 80"
+          }
+        ]
+      },
+      "repaired": {
+        "passed": true,
+        "failures": []
+      },
+      "ad2": {
+        "body": "Give your accountant access fast. No emailing files. Just one tap.",
+        "colours": [
+          "#0B1F33",
+          "#2CA01C",
+          "#F4F5F8",
+          "#FFC629"
+        ],
+        "headline": "Share your books in one tap",
+        "cta": "Learn more",
+        "legal_line": "Terms apply. See ledgerly.example/terms."
+      }
+    }
+  ]
+}

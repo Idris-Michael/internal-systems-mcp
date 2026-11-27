@@ -1,0 +1,8 @@
+[
+ {
+  "cmd": "python bench/demo.py   # an agent calling the server over MCP",
+  "out": "ok      find_accounts('Halden')                      1 row(s) ['Halden Outdoor']\nok      find_accounts(\"' OR '1'='1\")                 0 row(s) []\nREFUSED list_campaigns('../../etc/passwd')           account_id must look like ACC-1234\nREFUSED save_ad_draft with a read-only token         forbidden: this tool needs the 'drafts:write' scope\nREFUSED save_ad_draft, body edited after approval    not approved: approval token was issued for a different draft\nok      save_ad_draft, approved draft                {'saved': True, 'draft_id': 'DRF-0001', 'approved_by': 'marketing-lead\nREFUSED save_ad_draft, same approval again           not approved: approval token has already been used",
+  "lineMs": 650,
+  "pause": 5000
+ }
+]

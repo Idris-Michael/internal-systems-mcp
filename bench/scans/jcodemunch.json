@@ -1,0 +1,1 @@
+{"tools": 81, "findings": [{"tool": "get_project_intel", "field": "description", "rule": "sensitive-file", "excerpt": ".env"}]}
